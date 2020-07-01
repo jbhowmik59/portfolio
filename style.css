@@ -2,8 +2,18 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    padding-top: 80px;
+}
 p{
     color: dimgray;
+    font-size: 20px;
+
+    
 }
 section{
     height: 500px;
@@ -12,22 +22,54 @@ section{
 .name{
     color:salmon;
 }
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
 .half{
+
     width: 40%;
     float: left;
-    margin: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: -200px;
 }
-.half img{
+ img{
     width: 100%;
 }
 .button{
+    
+    margin-top: 20px;
     text-decoration: none;
     background-color: salmon;
     padding: 5px 10px;
     color: white;
     border-radius: 5%;
 }
-.header{
-    background-image: url(images/header-bg.png);
+
+.biography{
+    background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+    height: 800px;
+    
+}
+.work{
+    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.one_third{
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1%;
+
+}
+.clients{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
 }
