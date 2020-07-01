@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+p{
+    color: dimgray;
+}
+section{
+    height: 500px;
+    padding-left: 20px;
+}
+.name{
+    color:salmon;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.half img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5%;
+}
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
