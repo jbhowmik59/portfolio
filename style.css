@@ -7,7 +7,13 @@ h1{
 }
 h2{
     font-size: 40px;
-    padding-top: 80px;
+    padding-bottom: 10px;
+}
+h6{
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
 }
 p{
     color: dimgray;
@@ -36,10 +42,10 @@ section{
     float: -200px;
 }
  img{
-    width: 100%;
+    width: 90%;
 }
 .button{
-    
+    font-weight: 500px;
     margin-top: 20px;
     text-decoration: none;
     background-color: salmon;
@@ -51,25 +57,43 @@ section{
 .biography{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;
     
 }
 .work{
     text-align: center;
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
 }
 .one_third{
     width: 30%;
     float: left;
     margin-left: 1%;
-    padding-left: 1%;
+    padding-left: 1.5%;
 
 }
 .clients{
-    text-align: center;
     background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-    height: 700px;
+    text-align: center;
+    height: 500px;
+}
+
+.button-2{
+    margin: 30px 400px;
+    background-color: salmon;
+    padding: 2px 4px;
+    border-radius: 10px;
+    
+}
+.button-2 a{
+    text-decoration:  none;
+    color: white;
+    font-weight: 500;
+    
+
+}
+footer {
+    text-align: center;
+    color: dimgray;
 }
